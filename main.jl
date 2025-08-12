@@ -22,7 +22,7 @@ Shunt conductances at the buses are also considered
 using LinearAlgebra, SparseArrays
 
 # Packages related to treatement of data
-using Dates, NumericIO, DataFrames, Printf, CSV, DataStructures
+using DataFrames, Printf, CSV, DataStructures
 
 # Packages related to the optimization
 using JuMP, Gurobi, Ipopt
@@ -192,3 +192,4 @@ else
     JuMP.@warn "Optmization process failed. No feasible solution found."
 end
 println("--------------------------------------------------------------------------------------------------------------------------------------")
+
