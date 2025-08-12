@@ -1,7 +1,7 @@
 # DCOPF_Julia
 This code build and solve the DC Optimal Power Flow using JuMP (Julia for Mathematical Programming).
 
-To run the code and change the input parameters, use the file "Main_DCOPF.jl"
+To run the code and change the input parameters, use the file "main.jl"
 
 The code stores Input Data in mutable Structs. Some of the Output Data is also saved in mutable Structs.
 
