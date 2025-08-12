@@ -1,0 +1,11 @@
+A JuMP Model
+├ solver: Gurobi
+├ objective_sense: MIN_SENSE
+│ └ objective_function_type: AffExpr
+├ num_variables: 141
+├ num_constraints: 382
+│ ├ AffExpr in MOI.EqualTo{Float64}: 132
+│ ├ AffExpr in MOI.Interval{Float64}: 46
+│ ├ VariableRef in MOI.GreaterThan{Float64}: 102
+│ └ VariableRef in MOI.LessThan{Float64}: 102
+└ Names registered in the model: none
